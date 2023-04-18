@@ -10,24 +10,36 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Header Secction-->
-    <header>
+    <header class="page-header">
       <nav>
         <!--logo-->
-        <a href="./index.html">Webstudio</a>
+        <a class="logo" href="./index.html">Webstudio</a>
         <!--menu-->
-        <ul>
+        <ul class="menu-header">
           <li><a href="./index.html">Estudio</a></li>
-          <li><a href="./index.html">Portafolio</a></li>
+          <li><a href="./index.html" class="active">Portafolio</a></li>
           <li><a href="./index.html">Contacto</a></li>
         </ul>
       </nav>
       <!--contacts-->
       <ul>
-        <li><a href="#">info@devstudio.com</a></li>
-        <li><a href="#">388961111111</a></li>
+        <li><a class="contact" href="#">info@devstudio.com</a></li>
+        <li><a class="contact" href="#">388961111111</a></li>
       </ul>
     </header>
     <main>
@@ -35,11 +47,11 @@
         <h1>Portafolio</h1>
         <!--Menu Tabs-->
         <ul>
-          <li><button type="button">Todo</button></li>
-          <li><button type="button">Sitios-Web</button></li>
-          <li><button type="button">Aplicaciones</button></li>
-          <li><button type="button">Diseño</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li><button class="button" type="button">Todo</button></li>
+          <li><button class="button" type="button">Sitios-Web</button></li>
+          <li><button class="button" type="button">Aplicaciones</button></li>
+          <li><button class="button" type="button">Diseño</button></li>
+          <li><button class="button" type="button">Marketing</button></li>
         </ul>
         <!--cards list-->
         <ul>
@@ -50,8 +62,8 @@
                 alt="Tecnocrackt website"
                 width="370"
               />
-              <h2>Tecnoduck</h2>
-              <p>Sitio-Web</p>
+              <h2 class="name">Tecnoduck</h2>
+              <p class="area">Sitio-Web</p>
             </a>
           </li>
           <li>
@@ -61,9 +73,9 @@
                 alt="Póster de Nueva Orleans vs Estrella Dorada"
                 width="370"
               />
-              <h2>Póster de Nueva Orleans vs Estrella Dorada</h2>
-              <p>Diseño</p></a
-            >
+              <h2 class="name">Póster de Nueva Orleans vs Estrella Dorada</h2>
+              <p class="area">Diseño</p>
+            </a>
           </li>
           <li>
             <a href="#">
@@ -145,5 +157,29 @@
         </ul>
       </section>
     </main>
+    <footer>
+      <a class="logo" href="">WebStudio</a>
+      <address>
+        <ul>
+          <li>
+            <a
+              class="contact"
+              href="#"
+              target="-blank"
+              rel="noreferrer noopener"
+              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+            >
+          </li>
+          <li>
+            <a class="contact" href="mailito:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="" href="tel:525555296000">+52 55 5529 6000</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>

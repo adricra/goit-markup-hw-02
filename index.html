@@ -10,62 +10,74 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Encabezado de la pagina Web -->
-    <header>
+    <header class="page-header">
       <nav>
         <!--logo-->
-        <a href="">WebStudio</a>
+        <a class="logo" href="">WebStudio</a>
         <!--menu-->
-        <ul>
-          <li><a href="">Estudio</a></li>
-          <li><a href="">Portafolio</a></li>
+        <ul class="menu-header">
+          <li><a href="./index.html" class="active">Estudio</a></li>
+          <li><a href="./portfolio.html">Portafolio</a></li>
           <li><a href="">contacto</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <!--Seccion Principal-->
-      <section>
-        <h1>Soluciones Eficaces para su negocio</h1>
-        <button type="button">Solicite nuestro servicio</button>
+      <!--Hero Secction-->
+      <section class="hero-bg-hero">
+        <h1 class="hero-tittle">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <button class="button-primary" type" ="button">Solicite nuestro servicio</button>
       </section>
-      <section>
-        <!--Seccion de Beneficios-->
-        <ul>
+      <!--Seccion de Beneficios-->
+      <section class="section">
+        <ul class="benefits-list">
           <li>
-            <h3>ATENCION A LOS DETALLES</h3>
-            <p>
+            <h3 class="tittle">ATENCION A LOS DETALLES</h3>
+            <p class="description">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
           <li>
-            <h3>PUNTUALIDAD</h3>
-            <p>
+            <h3 class="tittle">PUNTUALIDAD</h3>
+            <p class="description">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
               los plazos acordados.
             </p>
           </li>
           <li>
-            <h3>PLANIFICACIÓN</h3>
-            <p>
+            <h3 class="tittle">PLANIFICACIÓN</h3>
+            <p class="description">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
           <li>
-            <h3>TEGNOLOGÍA MODERNA</h3>
-            <p>
+            <h3 class="tittle">TEGNOLOGÍA MODERNA</h3>
+            <p class="description">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="secction">
         <h2>A qué nos dedicamos</h2>
         <ul>
           <li>
@@ -83,7 +95,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="secction-team">
         <h2>Nuestro Equipo</h2>
         <ul>
           <li>
@@ -110,19 +122,19 @@
       </section>
     </main>
     <footer>
-      <a href="">WebStudio</a>
+      <a class="logo" href="">WebStudio</a>
       <address>
         <ul>
           <li>
-            <a href="#" target="-blank" rel="noreferrer noopener"
+            <a class="contact" href="#" target="-blank" rel="noreferrer noopener"
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
           <li>
-            <a href="mailito:info@example.com">info@example.com</a>
+            <a class="contact" href="mailito:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a href="tel:525555296000">+52 55 5529 6000</a>
+            <a class="contact" href="tel:525555296000">+52 55 5529 6000</a>
           </li>
         </ul>
       </address>
