@@ -1,4 +1,4 @@
-:root {
+:root {ray
     --primary-black-color: #212121;
     --primary-text-color: #757575;
     --primary-white-color: #ffffff;
@@ -20,9 +20,6 @@ body {
     letter-spacing: 0,03em;
 }
 
-a.active {
-    color: var(--accent-color);
-}
 a{
     text-decoration: none;
 }
@@ -36,10 +33,19 @@ ul{
     font-weight: 700;
     line-height: 31px;
 }
-.menu-header{
+.nav-menu{
     color: var(--primary-black-color);
     letter-spacing: 0,02em;
     font-weight: 500;
+    cursor: pointer;
+}
+.menu-studio:hover,
+.menu-portafolio:hover,
+.menu-contact:hover{
+    color: #2196f3;
+}
+.nav-menu .menu-studio:active{
+    color: red;
 }
 .hero-bg-hero, footer{
     background-color: var(--background-black);
@@ -48,12 +54,10 @@ ul{
 .hero-tittle{
     color: var(--primary-white-color);
     font-size: 44px;
-    letter-spacing: 0,06EM;
+    letter-spacing: 0,06em;
     text-transform: uppercase;
     font-weight: 900;
     line-height: 60px;
-    
-
 }
 .button-primary{
     font-size: 16px;
@@ -74,7 +78,12 @@ ul{
     color: var(--primary-black-color);
     font-weight: 500;
     line-height: 26px;
-
+    cursor: pointer;
+}
+.button:hover,
+.button:focus{
+background-color: var(--button-primary-hover);
+color: var(--primary-white-color);
 }
 .secction{
 background-color: #e5e5e5;
@@ -94,6 +103,11 @@ h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
+}
+.name{
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0,06em;
 }
 .secction-team{
     background-color: var(--background-gray);
@@ -115,4 +129,15 @@ p{
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
+}
+.contact:hover{
+    color: var(--accent-color);
+}
+.contacts {
+    color: var(--primary-white-color);
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+.contacts:hover{
+    color: var(--accent-color);
 }
